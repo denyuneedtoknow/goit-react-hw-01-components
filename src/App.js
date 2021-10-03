@@ -1,11 +1,11 @@
-import Statistics from "./Components/Statistics";
-import user from "../src/user.json";
-import UserList from "./Components/UserList";
-import stats from "./statistical-data.json";
-import friends from "./friends.json";
-import FriendList from "./Components/FriendList";
-import TransactionHistory from "./Components/TransactionHistory";
-import transactions from "./transactions.json";
+import Statistics from "./Components/Statistics/Statistics";
+import user from "./Components/Profile/user.json";
+import UserList from "./Components/Profile/Profile";
+import stats from "./Components/Statistics/statistical-data.json";
+import friends from "./Components/FriendList/friends.json";
+import FriendList from "./Components/FriendList/FriendList";
+import TransactionHistory from "./Components/TransactionHistory/TransactionHistory";
+import transactions from "./Components/TransactionHistory/transactions.json";
 
 const title = "Upload stats";
 // const title = null;

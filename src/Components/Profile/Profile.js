@@ -1,4 +1,4 @@
-import UserCard from "../Components/User";
+import UserCard from "./User";
 export default function UserList({ items }) {
   return (
     <ul>
