@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types';
 import s from './FriendList.module.css';
-console.log(s);
 const FriendListItem = ({ avatar, name, isOnline }) => {
   return (
     <li className={s.item}>

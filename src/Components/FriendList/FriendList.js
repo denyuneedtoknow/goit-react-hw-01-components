@@ -1,6 +1,5 @@
 import FriendListItem from './FriendListItem';
 import s from './FriendList.module.css';
-console.log(s);
 export default function FriendList({ friends }) {
   return (
     <ul className={s.friendList}>
